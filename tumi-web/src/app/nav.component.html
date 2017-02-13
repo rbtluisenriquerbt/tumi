@@ -1,0 +1,21 @@
+<nav>
+  <div class="nav-wrapper">
+    <div class="row">
+      <a [routerLink] = "['/profile']" class="nav-box" routerLinkActive="active" [routerLinkActiveOptions] = "{exact:true}">
+        <div class="cube z-depth-1 box-space">
+            <img src="../assets/user.svg" class="responsive-img box-space">
+        </div>
+      </a>
+      <a [routerLink] = "['/courses']" class="nav-box" routerLinkActive="active" [routerLinkActiveOptions] = "{exact:true}">
+        <div class="cube z-depth-1 box-space">
+            <img src="../assets/bookmark.svg" class="responsive-img box-space">
+        </div>
+      </a>
+      <a [routerLink] = "['/badges']" class="nav-box" routerLinkActive="active" [routerLinkActiveOptions] = "{exact:true}">
+        <div class="cube z-depth-1 box-space">
+            <img src="../assets/map.svg" class="responsive-img box-space">
+        </div>
+      </a>
+    </div>
+  </div>
+</nav>

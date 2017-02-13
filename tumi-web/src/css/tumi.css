@@ -1,0 +1,52 @@
+.height-full
+{
+  height: 94vh;
+  max-height: 100vh;
+  margin-bottom: -20px;
+}
+
+.box-margin{
+  margin: 1px;
+}
+
+.box-space{
+    padding: 12%;
+}
+
+.rectangle
+{
+  height: auto;
+}
+
+.no-padding
+{
+  padding: 0;
+}
+.shadow
+{
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+a{
+  outline: 0;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
